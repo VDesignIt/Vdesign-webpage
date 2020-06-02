@@ -129,3 +129,95 @@ span
     
 }
 
+.services
+{
+    background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+
+}
+
+.inner-width
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+
+}
+.section-title
+{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.border
+{
+    width: 160px;
+    height: 2px;
+    background: #39FF14;
+    margin: 40px auto;
+}
+.services-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.service-box
+{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.service-icon
+{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #39FF14; 
+    color: #39FF14;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+
+
+}
+
+.service-icon i
+{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+
+}
+
+.service-box:hover .service-icon
+{
+    background: #39FF14;
+    color: #ddd;
+
+}
+.service-title
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.service-desc
+{
+    font-size: 14px;
+
+}
